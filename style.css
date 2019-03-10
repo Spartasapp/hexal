@@ -1,0 +1,710 @@
+body {
+  width: 1020px;
+  height: 1732px
+}
+header {
+  width: 1020px;
+  height: 63px;
+  background-color: #323232;
+}
+header h1 {
+  display: none;
+}
+nav.navigation {
+  position: relative;
+}
+div.logo {
+  width: 64px;
+  height: 55px;
+  position: absolute;
+  left: 468px;
+  top: 10px;
+  background: url(../Hexal/assets/images/Logo@1X.png);
+}
+
+ul.menu {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+ul.menu li {
+  display: inline;
+  font-size: 8px;
+  font-family: 'Lato', sans-serif;
+  font-size: 0px;
+  
+}
+ul.menu li a {
+  text-decoration: none;
+}
+a.portfolio {
+  color: #2eb398;
+}
+a.colorlinks {
+  color: #d6d6d6;
+}
+ul.menu li:nth-child(1) {
+  font-size: 10px;
+  position: absolute;
+  left: 325px;
+  top: 32px;
+  height: 8px;
+}
+ul.menu li:nth-child(2) {
+  font-size: 10px;
+  position: absolute;
+  left: 391px;
+  top: 32px;
+  height: 8px;
+  color: #484c5f;
+}
+ul.menu li:nth-child(3) {
+  font-size: 10px;
+  position: absolute;
+  left: 403px;
+  top: 32px;
+  height: 8px;
+}
+ul.menu li:nth-child(4) {
+  font-size: 10px;
+  position: absolute;
+  right: 430px;
+  top: 32px;
+  height: 8px;
+}
+ul.menu li:nth-child(5) {
+  font-size: 10px;
+  position: absolute;
+  right: 418px;
+  top: 32px;
+  height: 8px;
+  color: #484c5f;
+}
+ul.menu li:nth-child(6) {
+  font-size: 10px;
+  position: absolute;
+  right: 340px;
+  top: 32px;
+  height: 8px;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-top: 26px solid #323232;
+  position: absolute;
+  left: 455px;
+  top: 62px;
+}
+main {
+  width: 1020px;
+  height: 1062px;
+}
+section.container {
+  width: 1020px;
+  height: 721px;
+  position: relative;
+  top: 27.5px;
+}
+div.line-3 {
+  width: 1px;
+  height: 104px;
+  background: #e4e9eb;
+}
+div.fifth {
+  position: absolute;
+  top: 110.5px;
+  left: 100px;
+}
+div.sixth {
+  position: absolute;
+  top: 450.5px;
+  left: 100px;
+
+}
+div.seventh {
+  position: absolute;
+  top: 110.5px;
+  left: 900px;
+}
+div.eighth{
+  position: absolute;
+  top: 450.5px;
+  left: 900px;
+}
+div.ninth {
+  position: absolute;
+  top: 682px;
+  left: 30px;
+}
+div.line-5 {
+  width: 410px;
+  height: 1px;
+  background: #e4e9eb;
+}
+div.line-4 {
+  width: 960px;
+  height: 1px;
+  background: #e4e9eb;
+  position: absolute;
+}
+div.tenth {
+  position: absolute;
+  left: 30px;
+  top: -17px;
+}
+div.eleventh {
+  position: absolute;
+  right: 30px;
+  top: -17px;
+}
+div.slider1 {
+  width: 6px;
+  height: 6px;
+  background: #ddd2c5;
+  position: absolute;
+  left: 30px;
+  bottom: 50px;
+}
+div.slider2 {
+  width: 6px;
+  height: 6px;
+  background: #ddd2c5;
+  position: absolute;
+  left: 39px;
+  bottom: 50px;
+}
+div.slider3 {
+  width: 6px;
+  height: 6px;
+  background: #8b8784;
+  position: absolute;
+  left: 48px;
+  bottom: 50px;
+}
+div.slider4 {
+  width: 6px;
+  height: 6px;
+  background: #ddd2c5;
+  position: absolute;
+  left: 57px;
+  bottom: 50px;
+}
+div.slider5 {
+  width: 6px;
+  height: 6px;
+  background: #ddd2c5;
+  position: absolute;
+  left: 66px;
+  bottom: 50px;
+}
+div.slider6 {
+  width: 6px;
+  height: 6px;
+  background: #ddd2c5;
+  position: absolute;
+  left: 75px;
+  bottom: 50px;
+}
+section.info {
+  width: 1020px;
+  height: 341px;
+  background-color: #2eb398;
+  position: absolute;
+}
+.hexagon-container {
+  position: relative;
+  left: 112.5px;
+  top: 53px;
+}
+.hexagon-container-1 {
+  position: relative;
+  left: 15.5px;
+}
+.hexagon-container-2 {
+  position: relative;
+  left: 112.5px;
+  top: -53px;
+}
+.hexagon {
+  width: 181px;
+  height: 209px;
+  margin: 5px;
+  transform: rotate(120deg);
+  overflow: hidden;
+  visibility: hidden;
+  display: inline-block;
+  position: relative;
+}
+.hex-layer-1 {
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  position: absolute;
+}
+.hex-layer-21 {
+  width: 100%;
+  height: 100%;
+  background: #ccc3;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+  background-image: url('../Hexal/assets/images/Layer1@1X.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.hex-layer-22 {
+  width: 100%;
+  height: 100%;
+  background: #ccc3;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+  background-image: url('../Hexal/assets/images/Layer2@1X.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.hex-layer-23 {
+  width: 100%;
+  height: 100%;
+  background: #ccc3;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+  background-image: url('../Hexal/assets/images/Layer3@1X.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.hex-layer-24 {
+  width: 100%;
+  height: 100%;
+  background: #ccc3;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+  background-image: url('../Hexal/assets/images/Layer4@1X.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.hex-layer-25 {
+  width: 100%;
+  height: 100%;
+  background: #ccc3;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+  background-image: url('../Hexal/assets/images/Layer5@1X.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.hex-layer-26 {
+  width: 100%;
+  height: 100%;
+  background: #ccc3;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+  background-image: url('../Hexal/assets/images/Layer6@1X.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.hex-layer-27 {
+  width: 100%;
+  height: 100%;
+  background: #ccc3;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+  background-image: url('../Hexal/assets/images/Layer7@1X.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.hex-layer-28 {
+  width: 100%;
+  height: 100%;
+  background: #ccc3;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+  background-image: url('../Hexal/assets/images/Layer8@1X.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.hex-layer-29 {
+  width: 100%;
+  height: 100%;
+  background: #ccc3;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+  background-image: url('../Hexal/assets/images/Layer9@1X.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.hex-layer-210 {
+  width: 100%;
+  height: 100%;
+  background: #ccc3;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+  background-image: url('../Hexal/assets/images/Layer10@1X.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.hex-layer-211 {
+  width: 100%;
+  height: 100%;
+  background: #ccc3;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+  background-image: url('../Hexal/assets/images/Layer11@1X.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.hex-layer-212 {
+  width: 100%;
+  height: 100%;
+  background: #ccc3;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+  background-image: url('../Hexal/assets/images/Layer12@1X.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.hex-layer-213 {
+  width: 100%;
+  height: 100%;
+  background: #ccc3;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+  background-image: url('../Hexal/assets/images/Layer13@1X.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.hexagon:hover {
+  transform: rotate(360deg);
+  transition: transform 1s ease-in-out;
+}
+.person {
+  width: 181px;
+  height: 209px;
+  margin: 0px;
+  transform: rotate(120deg);
+  overflow: hidden;
+  visibility: hidden;
+  display: inline-block;
+  position: relative;
+  left: 120px;
+  top: 68px;
+}
+.person-layer-1 {
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  position: absolute;
+}
+.person-layer-2 {
+  width: 100%;
+  height: 100%;
+  background: #ccc3;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+  background-image: url('../Hexal/assets/images/Image@1X.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+div.line-2 {
+  width: 1px;
+  height: 316px;
+  background: #219d84;
+  position: absolute;
+}
+div.third {
+  position: absolute;
+  left: 99px;
+  top: 13px;
+}
+div.fourth {
+  position: absolute;
+  right: 99px;
+  top: 13px;
+}
+.h3 {
+  font-family: 'Maven Pro', sans-serif;
+  width: 209px;
+  height: 22px;
+  position: absolute;
+  margin: 0px;
+  left: 319px;
+  top: 59px;
+  color: #d7fcf5;
+  font-size: 29px;
+}
+.h4 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 13pt;
+  color: rgba(32, 129, 109, 255);
+  text-align: justify;
+  width: 249px;
+  height: 17px;
+  position: absolute;
+  left: 319px;
+  top: 84px;
+  margin-top: 8px; 
+}
+p.subtitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  margin: 0px;
+  width: 581px;
+  height: 76px;
+  position: absolute;
+  left: 319px;
+  top: 128px;
+  color: rgba(215, 252, 245, 255);
+  line-height: 23px;
+}
+
+
+div.facebook {
+  width: 24px;
+  height: 24px;
+  background-image: url(../Hexal/assets/images/Facebook@1X.png);
+  position: absolute;
+  left: 753px;
+  top: 250px;
+}
+div.twitter {
+  width: 24px;
+  height: 24px;
+  background: url(../Hexal/assets/images/Twitter@1X.png);
+  position: absolute;
+  left: 777px;
+  top: 250px;
+}
+div.google {
+  width: 24px;
+  height: 24px;
+  background: url(../Hexal/assets/images/Google@1X.png);
+  position: absolute;
+  left: 801px;
+  top: 250px;
+}
+div.pinterest {
+  width: 24px;
+  height: 24px;
+  background: url(../Hexal/assets/images/Pinterest@1X.png);
+  position: absolute;
+  left: 825px;
+  top: 250px;
+}
+div.linkedin {
+  width: 24px;
+  height: 24px;
+  background: url(../Hexal/assets/images/Linkedin@1X.png);
+  position: absolute;
+  left: 849px;
+  top: 250px;
+}
+div.dribbble {
+  width: 24px;
+  height: 24px;
+  background: url(../Hexal/assets/images/Dribbble@1X.png);
+  position: absolute;
+  left: 873px;
+  top: 250px;
+}
+.form {
+  width: 1020px;
+  height: 564px;
+  background-color: #323232;
+}
+section.legal-information {
+  width: 1020px;
+  height: 43px;
+  background-color: #222222;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 8.65655pt;
+  color: rgba(69, 69, 69, 255);
+  text-align: justify;
+  position: absolute;
+}
+section.legal-information p {
+  margin: 16px 826px 15px 39px;
+  font-size: 11px;
+}
+div.line-1 {
+  width: 960px;
+  height: 1px;
+  background: #2b2b2b;
+  position: absolute;
+}
+div.first {
+  margin: 13px 30px 53px;
+}
+div.second {
+  margin-left: 30px;
+  position: absolute;
+  top: 1684px;
+}
+fieldset {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+legend p:nth-child(1) {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 22pt;
+  color: rgba(224, 224, 224, 255);
+  text-align: justify;
+  width: 168px;
+  height: 29px;
+  position: absolute;
+  left: 129px;
+  top: 1192px;
+  margin-top: 0px;
+}
+legend p:nth-child(2) {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 13pt;
+  color: rgba(190, 190, 190, 255);
+  text-align: justify;
+  width: 421px;
+  height: 17px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 129px;
+  top: 1215px;
+}
+ p.input {
+  margin: 0px 0px 16px 0px; 
+}
+p.input input {
+  width: 568px;
+  height: 40px;
+  position absolute;
+  left: 120px;
+  top: 1258px;
+  background: #454545;
+  border: 0px solid transparent;
+}
+p input.name {
+  position: absolute;
+  left: 129px;
+  top: 1258px;
+  padding-left: 14px;
+}
+p input.email {
+  position: absolute;
+  left: 129px;
+  top: 1312px;
+  padding-left: 14px;
+}
+p input.subject {
+  position: absolute;
+  left: 129px;
+  top: 1366px;
+  padding-left: 14px;
+}
+textarea {
+  width: 568px;
+  height: 140px;
+  position: absolute;
+  left: 129px;
+  top: 1419px;
+  border: 0px;
+  background: #454545;
+  padding: 13px 0px 0px 14px;
+}
+.button-submit {
+  background: #2eb398;
+  width: 92px;
+  height: 39px;
+  border: 1px solid transparent;
+  font-family: 'Lato', sans-serif;
+  font-size: 12pt;
+  color: #d7fcf5;
+  text-align: center;
+  padding: 0px;
+  position: absolute;
+  left: 618px;
+  top: 1586px;
+  margin-top: 8px;
+}
+p span {
+  color: #e0e0e0;
+}
+p.aside-text {
+  color: #bebebe;
+  width: 180px;
+  height: 117px;
+  position: absolute;
+  left: 720px;
+  top: 1238px;
+  margin-left: 11px;
+  font-family: 'Lato', sans-serif;
+  font-size: 11pt;
+  text-align: justify;
+}
+div.location {
+  width: 7px;
+  height: 11px;
+  background: url(../Hexal/assets/images/location@1X.png);
+  position: absolute;
+  left: 731px;
+  top: 1419px;
+}
+p.location {
+  position: absolute;
+  left: 752px;
+  top: 1406px;
+  width: 121px;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  color: rgba(190, 190, 190, 255);
+}
+div.phone {
+  width: 11px;
+  height: 11px;
+  background: url(../Hexal/assets/images/phone@1X.png);
+  position: absolute;
+  left: 729px;
+  top: 1440px;
+}
+p.phone {
+  position: absolute;
+  left: 752px;
+  top: 1429px;
+  width: 121px;
+  font-size: 11px;
+  font-family: 'Lato', sans-serif;
+  color: rgba(190, 190, 190, 255);
+}
+div.mail {
+  width: 13px;
+  height: 8px;
+  background: url(../Hexal/assets/images/mail@1X.png);
+  position: absolute;
+  left: 729px;
+  top: 1463px;
+}
+p.mail {
+  position: absolute;
+  left: 752px;
+  top: 1449px;
+  width: 121px;
+  font-size: 11px;
+  font-family: 'Lato', sans-serif;
+  color: rgba(190, 190, 190, 255);
+}
